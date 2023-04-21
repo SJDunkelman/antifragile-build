@@ -1,6 +1,13 @@
 # build output
 dist/
 
+.vscode/
+.idea/
+
+images/external/*
+
+package-lock.json
+
 # generated types
 .astro/
 
