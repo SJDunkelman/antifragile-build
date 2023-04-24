@@ -1,13 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-import SunriseImage from "../images/sunrise.png";
-import SunsetImage from "../images/sunset.png";
-import CruiserImage from "../images/cruiser.png";
+// import SunriseImage from "../images/sunrise.png";
+// import SunsetImage from "../images/sunset.png";
+// import CruiserImage from "../images/cruiser.png";
 ---
 
 <Layout title="AntiFragile Matter Inc.">
-	<main class="font-source flex flex-col">
+	<main class="font-source flex flex-col w-screen overflow-clip">
 		<section class="relative min-h-screen">
 			<nav class="w-full z-50 absolute top-2 left-12">
 				<a href="https://twitter.com/antifragile_eth">
@@ -15,7 +15,7 @@ import CruiserImage from "../images/cruiser.png";
 				</a>
 			</nav>
 			<div class="absolute inset-0 w-full h-full z-0">
-				<img src={SunriseImage} alt="Sunrise over mars" class="w-full h-full object-cover object-center" />
+				<img src="assets/sunrise.webp" alt="Sunrise over mars" class="w-full h-full object-cover object-center" />
 			</div>
 			<div class="w-4/5 sm:w-[45%] z-50 flex flex-col space-y-4 absolute top-1/2 left-1/2 -translate-x-1/2 sm:-translate-x-[90%] -translate-y-1/2 text-white bg-[#1f0021] p-6 border-4 border-black rounded-2xl ">
 				<h1 class="text-4xl tracking-wider text-[#F9DE64] font-black" >Make your smart contracts safe<br/>Build <span class="underline underline-offset-8">Anti-Fragile</span></h1>
@@ -25,21 +25,20 @@ import CruiserImage from "../images/cruiser.png";
 		</section>
 		<section class="relative min-h-screen">
 			<div class="absolute inset-0 w-full h-full z-0">
-				<img src={CruiserImage} alt="Cruiser driving across mars" class="w-full h-full object-cover object-center" />
+				<img src="assets/cruiser.webp" alt="Cruiser driving across mars" class="w-full h-full object-cover object-center" />
 			</div>
 			<div class="w-4/5 sm:w-[45%] z-50 flex flex-col space-y-4 absolute top-1/2 left-1/2 -translate-x-1/2 sm:-translate-x-[10%] -translate-y-1/2 text-white bg-[#1f0021] p-6 border-4 border-black rounded-2xl ">
-				<h1 class="text-4xl tracking-wider text-[#F9DE64] font-black" >Make your smart contracts safe<br/>Build <span class="underline underline-offset-8">Anti-Fragile</span></h1>
-				<p class="tracking-wide font-light text-lg">A public good tool for detecting and fixing security vulnerabilities in Ethereum smart contracts using AI Agents</p>
+				<h1 class="text-4xl tracking-wider text-[#F9DE64] font-black" >Drive Efficiency with AI-Powered Gas Optimization</h1>
+				<p class="tracking-wide font-light text-lg">Elevate your smart contracts to new heights by reducing costs and enhancing performance. Our AI-driven solutions ensure you're always ahead in the Web3 ecosystem.</p>
 			</div>
 		</section>
 		<section class="relative min-h-screen">
 			<div class="absolute inset-0 w-full h-full z-0">
-				<img src={SunsetImage} alt="Cruiser driving across mars" class="w-full h-full object-cover object-center" />
+				<img src="assets/sunset.webp" alt="Cruiser driving across mars" class="w-full h-full object-cover object-center" />
 			</div>
-			<div class="w-4/5 sm:w-[33%] z-50 flex flex-col space-y-4 absolute top-1/2 left-1/2 -translate-x-1/2 sm:-translate-x-[53%] -translate-y-1/2 text-white bg-[#1f0021] p-6 border-4 border-black rounded-2xl ">
-				<h1 class="text-4xl tracking-wider text-[#F9DE64] font-black" >Make your smart contracts safe<br/>Build <span class="underline underline-offset-8">Anti-Fragile</span></h1>
-				<p class="tracking-wide font-light text-md text-white/50">Powered by <a href="https://www.smth.ai/" class="text-transparent bg-clip-text bg-gradient-to-r from-[#61A0AF] to-[#EB9486] hover:underline hover:underline-offset-4 hover:text-white">Smth AI</a></p>
-				<p class="tracking-wide font-light text-lg">A public good tool for detecting and fixing security vulnerabilities in Ethereum smart contracts using AI Agents</p>
+			<div class="w-4/5 sm:w-[35%] z-50 flex flex-col space-y-4 absolute top-1/2 left-1/2 -translate-x-1/2 sm:-translate-x-[53%] -translate-y-1/2 text-white bg-[#1f0021] p-6 border-4 border-black rounded-2xl ">
+				<h1 class="text-4xl tracking-wider text-[#F9DE64] font-black" >Your AI-Powered Guide to Token Engineering</h1>
+				<p class="tracking-wide font-light text-lg">Master the art of secure, efficient smart contracts and make informed investment decisions. Our comprehensive resources and real-time chatbot support simplify the complexities of token engineering for everyone.</p>
 			</div>
 		</section>
 	</main>
